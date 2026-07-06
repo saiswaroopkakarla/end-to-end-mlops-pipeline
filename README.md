@@ -1,5 +1,11 @@
 # End-to-End MLOps Pipeline
 
+![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-LinearRegression-F7931E?logo=scikit-learn&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-containerised-2496ED?logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?logo=githubactions&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 A branch-based MLOps learning project demonstrating the progressive evolution of a machine learning workflow, from raw model training to fully containerised, CI/CD-automated deployment.
 
 Built on the **California Housing dataset** using `scikit-learn` Linear Regression.
@@ -39,7 +45,7 @@ Model saved to linear_model.joblib
 
 ---
 
-## Stage 2 Docker + CI/CD (`docker_ci` branch)
+## Stage 2  Docker + CI/CD (`docker_ci` branch)
 
 **Files:** `src/train.py`, `src/predict.py`, `Dockerfile`, `.github/workflows/ci.yml`
 
@@ -108,10 +114,8 @@ Checkout → Set up Python → Install deps → Train model
 
 ## Learning Objectives
 
-This project covers:
-
 - Reproducible model training and serialisation
-- Writing modular `train.py` / `predict.py` separation of concerns
+- Modular `train.py` / `predict.py` separation of concerns
 - Packaging ML code in Docker for environment-independent deployment
 - Automating the full train → build → deploy cycle with GitHub Actions
 - Managing Docker Hub credentials securely via GitHub Secrets
@@ -121,4 +125,4 @@ This project covers:
 ## Author
 
 **Kakarla Sai Swaroop**  
-M25DE1023 IIT Jodhpur, M.Tech Data Engineering
+M25DE1023 — IIT Jodhpur, M.Tech Data Engineering
